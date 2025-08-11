@@ -22,7 +22,7 @@ function Quiz () {
             <h2> Question 1</h2> 
             <p className="question">{questionBank[0].question}</p>
             {questionBank[0].options.map((option) => (
-                <button className="option"> {option} </button>
+                <button className="option" onClick={() => handleSelectOption(option)}> {option} </button>
             ))}
 
             <div className="nav-buttons">
