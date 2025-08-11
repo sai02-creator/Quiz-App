@@ -17,6 +17,11 @@ function Quiz () {
         },
           
     ];
+    
+    function handleSelectOption(option) {
+        console.log(option);
+    }
+
     return(
         <div>
             <h2> Question 1</h2> 
