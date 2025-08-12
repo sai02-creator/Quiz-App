@@ -26,6 +26,8 @@ function Quiz () {
 
    const [currentQuestion, setCurrentQuestion] = useState(0);
 
+   const selectedAnswer = userAnwers[currentQuestion]; //null, option 
+
     function handleSelectOption(option) {
        const newUserAnswers = [...userAnwers]; 
        newUserAnswers[currentQuestion] = option;
@@ -57,8 +59,8 @@ function Quiz () {
             
 
             <div className="nav-buttons">
-                <button> Previous </button>
-                <button> Next </button>
+                <button onClick={goToPrev} disabled={currentQuestion === 0}> Previous </button>
+                <button onClick={goToNext}> Next </button>
             </div>
              </div>
     );
