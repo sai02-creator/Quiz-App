@@ -39,7 +39,10 @@ function Quiz () {
     }
 
     function goToPrev() {
-         setCurrentQuestion(currentQuestion - 1);
+        if (currentQuestion > 0){
+               setCurrentQuestion(currentQuestion - 1);
+        }
+      
 
     }
 
