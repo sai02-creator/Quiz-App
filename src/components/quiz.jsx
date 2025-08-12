@@ -28,6 +28,7 @@ function Quiz () {
 
     function handleSelectOption(option) {
        const newUserAnswers = [...userAnwers]; 
+       newUserAnswers[currentQuestion] = option;
     }
 
     return(
