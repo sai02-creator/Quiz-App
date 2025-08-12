@@ -29,6 +29,17 @@ function Quiz () {
     function handleSelectOption(option) {
        const newUserAnswers = [...userAnwers]; 
        newUserAnswers[currentQuestion] = option;
+
+       setUserAnswers(newUserAnswers);
+    }
+
+    function goToNext() {
+        setCurrentQuestion(currentQuestion + 1);
+
+    }
+
+    function goToPrev() {
+
     }
 
     return(
