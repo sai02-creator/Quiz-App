@@ -38,6 +38,6 @@ These are few screenshots how the quiz works
 
 - The website was tested on safari browser
 
-![quiz1](./assets/quiz1.png)
+![quiz1](./src/assets/quiz1.png)
 
 
