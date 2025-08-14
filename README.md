@@ -48,4 +48,9 @@ These are few screenshots how the quiz works
 
 
 
+## 🌐 Live Demo
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://quiz-hpga8bxiq-sai-chaitanya-gaddams-projects.vercel.app)
+
+
 
