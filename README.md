@@ -39,5 +39,13 @@ These are few screenshots how the quiz works
 - The website was tested on safari browser
 
 ![quiz1](./src/assets/quiz1.png)
+![quiz2](./src/assets/quiz2.png)
+![quiz3](./src/assets/quiz3.png)
+![quiz4](./src/assets/quiz4.png)
+![quiz5](./src/assets/quiz5.png)
+![quiz6](./src/assets/quiz6.png)
+![quiz7](./src/assets/quiz7.png)
+
+
 
 
