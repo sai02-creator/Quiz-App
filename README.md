@@ -34,17 +34,22 @@ Users can answer multiple-choice questions, navigate between them, and view thei
 
 # Run development server
 
-   npm run dev 
+  npm run dev 
 
 # Usage 
 
-  Start the quiz by answering the first question.
+- Start the quiz by answering the first question.
 
-  Click Next to move to the next question.
+-  Click Next to move to the next question.
 
-  You can go back to previous questions using Previous.
+-  You can go back to previous questions using Previous.
 
-  On the last question, click Finish Quiz to see your score.
+- On the last question, click Finish Quiz to see your score.
 
-  Use Restart Quiz to try again.
+-  Use Restart Quiz to try again.
+
+
+ ## 📸 Testing
+
+
 

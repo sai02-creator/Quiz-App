@@ -1,4 +1,6 @@
 import { useState } from "react";
+import Results from "./results";
+
 
 function Quiz () {
     const questionBank = [
