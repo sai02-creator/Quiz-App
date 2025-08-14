@@ -17,16 +17,6 @@ Users can answer multiple-choice questions, navigate between them, and view thei
 - JavaScript (ES6+)
 - CSS (for styling)
 
-## Folder Structure
-
-src/
-├── components/
-│ ├── quiz.jsx
-│ └── results.jsx
-├── App.jsx
-├── index.css
-└── main.jsx
-
 
 ## Installation & Setup
 
@@ -37,7 +27,9 @@ src/
 
 # Install dependencies
 
-   npm install
+
+
+   
 
 # Run development server
 
