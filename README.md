@@ -47,10 +47,9 @@ These are few screenshots how the quiz works
 ![quiz7](./src/assets/quiz7.png)
 
 
-
 ## 🌐 Live Demo
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://quiz-hpga8bxiq-sai-chaitanya-gaddams-projects.vercel.app)
+This app is **deployed using Vercel** and can be accessed [here](https://quiz-hpga8bxiq-sai-chaitanya-gaddams-projects.vercel.app).
 
 
 
