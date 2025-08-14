@@ -26,6 +26,8 @@ function Quiz () {
 
    const [currentQuestion, setCurrentQuestion] = useState(0);
 
+   const [isQuizFinished, setIsQuizFinished] = useState(false)
+
    const selectedAnswer = userAnswers[currentQuestion]; //null, option 
 
     function handleSelectOption(option) {
@@ -36,7 +38,18 @@ function Quiz () {
     }
 
     function goToNext() {
+        if (currentQuestion === questionBank.length -1){
+            setIsQuizFinished(true)
+        } else {
         setCurrentQuestion(currentQuestion + 1);
+        }
+
+    }
+
+    function restartQuiz() {
+        setUserAnswers(initialAnswers);
+        setCurrentQuestion(0);
+        setIsQuizFinished(false);
 
     }
 
@@ -45,15 +58,18 @@ function Quiz () {
                setCurrentQuestion(currentQuestion - 1);
         }
       
+    }
 
+    if (isQuizFinished) {
+        return <Results userAnswers={userAnswers} questionBank={questionBank} restartQuiz={restartQuiz}/>; 
     }
 
     return(
         <div>
             <h2> Question {currentQuestion + 1 } </h2> 
-            <p className="question">{questionBank[0].question}</p>
+            <p className="question">{questionBank[currentQuestion].question}</p>
             {questionBank[currentQuestion].options.map((option) => (
-                <button className={"option" + (selectedAnswer === option ? "selected" : "")} onClick={() => handleSelectOption(option)}>
+                <button className={"option " + (selectedAnswer === option ? "selected" : "")} onClick={() => handleSelectOption(option)}>
                      {option}
                       </button>
             ))}

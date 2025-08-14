@@ -19,3 +19,39 @@ Users can answer multiple-choice questions, navigate between them, and view thei
 
 ## Folder Structure
 
+src/
+├── components/
+│ ├── quiz.jsx
+│ └── results.jsx
+├── App.jsx
+├── index.css
+└── main.jsx
+
+
+## Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/react-quiz-app.git
+   cd react-quiz-app
+
+# Install dependencies
+
+   npm install
+
+# Run development server
+
+   npm run dev 
+
+# Usage 
+
+  Start the quiz by answering the first question.
+
+  Click Next to move to the next question.
+
+  You can go back to previous questions using Previous.
+
+  On the last question, click Finish Quiz to see your score.
+
+  Use Restart Quiz to try again.
+
