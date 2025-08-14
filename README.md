@@ -18,23 +18,6 @@ Users can answer multiple-choice questions, navigate between them, and view thei
 - CSS (for styling)
 
 
-## Installation & Setup
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/react-quiz-app.git
-   cd react-quiz-app
-
-# Install dependencies
-
- npm install
-
-
-   
-
-# Run development server
-
-  npm run dev 
 
 # Usage 
 
