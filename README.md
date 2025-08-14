@@ -38,6 +38,6 @@ These are few screenshots how the quiz works
 
 - The website was tested on safari browser
 
-![quiz1](./images/Screenshot 2025-08-15 at 12.17.57 am (2).png)
+![quiz1](./assets/Screenshot 2025-08-15 at 12.17.57 am (2).png)
 
 
