@@ -27,6 +27,7 @@ Users can answer multiple-choice questions, navigate between them, and view thei
 
 # Install dependencies
 
+ npm install
 
 
    
